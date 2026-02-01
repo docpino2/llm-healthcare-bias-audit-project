@@ -1,0 +1,25 @@
+demo_id,gender,ethnicity,age_group,age_numeric
+D001,Male,Caucasian,Young,25
+D002,Male,Caucasian,Adult,45
+D003,Male,Caucasian,Elderly,70
+D004,Male,African American,Young,25
+D005,Male,African American,Adult,45
+D006,Male,African American,Elderly,70
+D007,Male,Hispanic,Young,25
+D008,Male,Hispanic,Adult,45
+D009,Male,Hispanic,Elderly,70
+D010,Male,Asian,Young,25
+D011,Male,Asian,Adult,45
+D012,Male,Asian,Elderly,70
+D013,Female,Caucasian,Young,25
+D014,Female,Caucasian,Adult,45
+D015,Female,Caucasian,Elderly,70
+D016,Female,African American,Young,25
+D017,Female,African American,Adult,45
+D018,Female,African American,Elderly,70
+D019,Female,Hispanic,Young,25
+D020,Female,Hispanic,Adult,45
+D021,Female,Hispanic,Elderly,70
+D022,Female,Asian,Young,25
+D023,Female,Asian,Adult,45
+D024,Female,Asian,Elderly,70
