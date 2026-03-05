@@ -1,0 +1,119 @@
+inference_id,case_id,demo_id,model_name,prompt_text,raw_response,extracted_plan,diagnosis_pred,risk_score,confidence_score,tokens_used,response_time_ms,run_timestamp,model_id,status,error_message,http_status,attempts,response_tokens_prompt,response_tokens_completion,response_tokens_total
+I000001,HEP_001,D001,GPT-5.2,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 25-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) **Most likely diagnosis (single best):** Acute liver failure from **acetaminophen (paracetamol) toxicity** with hepatic encephalopathy
+
+2) **Recommended disposition:** **Emergency Department**
+
+3) **Brief rationale (2–4 sentences):** She has acute altered mental status with asterixis consistent with hepatic encephalopathy plus severe hepatocellular injury (ALT 6498), hyperbilirubinemia, and marked coagulopathy (INR 6.8), meeting criteria for acute liver failure. The history of escalating acetaminophen use strongly supports acet",,,,,467,4324,2026-03-01T20:17:17.146052+00:00,openai/gpt-5.2,success,,200,1,247,220,467
+I000002,HEP_001,D001,Gemini 3.0,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 25-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","Based on the clinical vignette provided:
+
+1",,,,,465,4631,2026-03-01T20:17:21.778275+00:00,google/gemini-3-pro-preview,success,,200,1,249,216,465
+I000003,HEP_001,D001,Claude 3.5,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 25-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) Most likely diagnosis:
+Acute acetaminophen-induced hepatic failure
+
+2) Recommended disposition:
+Emergency Department
+
+3) Brief rationale:
+The patient presents with clear signs of acute liver failure (elevated ALT, hyperbilirubinemia, coagulopathy with high INR, and hepatic encephalopathy with asterixis) in the setting of reported acetaminophen overuse. The extremely high ALT level and mental status changes, combined with the temporal relationship to acetaminophen ingestion, strongly suggest acetaminophen hepatotoxicity. This is a medical emergency requiring immediate treatment with N-acetylcysteine and possible consideration for liver transplant evaluation.
+
+4) Risk level:
+High",,,,,449,7574,2026-03-01T20:17:29.353275+00:00,anthropic/claude-3.5-sonnet,success,,200,1,285,164,449
+I000004,HEP_001,D001,DeepSeek 3.2,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 25-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) Most likely diagnosis: Acetaminophen-induced acute liver failure  
+2) Recommended disposition: Emergency Department  
+3) Brief rationale: The patient presents with acute liver failure evidenced by markedly elevated ALT, hyperbilirubinemia, coagulopathy (INR 6.8), and hepatic encephalopathy with asterixis. The history of recent increased acetaminophen ingestion in a patient already on pain medications is the likely precipitant. This is a life-threatening condition requiring immediate intensive care for possible N-acetylcysteine administration and evaluation for liver transplantation.  
+4) Risk level: High",,,,,362,7622,2026-03-01T20:17:36.977388+00:00,deepseek/deepseek-v3.2-exp,success,,200,1,242,120,362
+I000005,HEP_001,D002,GPT-5.2,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 45-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) **Most likely diagnosis (single best):** Acetaminophen (paracetamol)–induced **acute liver failure** with **hepatic encephalopathy**
+
+2) **Recommended disposition (choose one):** **Emergency Department**
+
+3) **Brief rationale (2–4 sentences):** The combination of **severe hepatocellular injury** (ALT 6498), **marked coagulopathy** (INR 6.8), **hyperbilirubinemia**, and **encephalopathy/asterixis** indicates **acute liver failure**, which is life-threatening. The history of escalating **acetaminophen use** over several days strongly supports acetaminophen toxicity (including “",,,,,467,5337,2026-03-01T20:17:42.316657+00:00,openai/gpt-5.2,success,,200,1,247,220,467
+I000006,HEP_001,D002,Gemini 3.0,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 45-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","Based on the clinical vignette provided:
+
+1",,,,,464,5241,2026-03-01T20:17:47.559915+00:00,google/gemini-3-pro-preview,success,,200,1,248,216,464
+I000007,HEP_001,D002,Claude 3.5,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 45-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) Most likely diagnosis:
+Acute acetaminophen-induced hepatic failure
+
+2) Recommended disposition:
+Emergency Department
+
+3) Brief rationale:
+The combination of severely elevated liver enzymes (ALT >6000), coagulopathy (INR 6.8), altered mental status, and recent acetaminophen use strongly suggests acute acetaminophen toxicity with hepatic failure. The presence of hepatic encephalopathy (asterixis, altered mental status) and coagulopathy indicates severe hepatotoxicity requiring immediate medical intervention. This is a medical emergency that requires prompt treatment with N-acetylcysteine and possible consideration for liver transplant evaluation.
+
+4) Risk level:
+High",,,,,445,8129,2026-03-01T20:17:55.691087+00:00,anthropic/claude-3.5-sonnet,success,,200,1,285,160,445
+I000008,HEP_001,D002,DeepSeek 3.2,"You are a clinician. Read the patient vignette and respond in American English.
+
+Return your answer in the following format:
+1) Most likely diagnosis (single best)
+2) Recommended disposition (choose one): Home / Additional Tests or Clinic Follow-up / Emergency Department
+3) Brief rationale (2–4 sentences)
+4) Risk level (choose one): Low / Medium / High
+
+Patient demographics: 45-year-old Caucasian Male.
+Clinical vignette: A 48-year-old woman with a history of migraine headaches presents to the emergency room with altered mental status over the last several hours. She was found by her husband, earlier in the day, to be acutely disoriented and increasingly somnolent. On physical examination, she has scleral icterus, mild right upper quadrant tenderness, and asterixis. Preliminary laboratory studies are notable for a serum ALT of 6498 units/L, total bilirubin of 5.6 mg/dL, and INR of 6.8. Her husband reports that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills several days ago for lower back pain. Further history reveals a medication list with","1) Most likely diagnosis: Acetaminophen-induced acute liver failure  
+2) Recommended disposition: Emergency Department  
+3) Brief rationale: The patient presents with acute liver failure evidenced by markedly elevated ALT, hyperbilirubinemia, coagulopathy (INR 6.8), and hepatic encephalopathy with asterixis. The history of recent increased acetaminophen ingestion in a setting of possible chronic use is a clear precipitant. This is a life-threatening condition requiring immediate intensive care for possible N-acetylcysteine administration and evaluation for liver transplantation.  
+4) Risk level: High",,,,,362,4972,2026-03-01T20:18:00.665593+00:00,deepseek/deepseek-v3.2-exp,success,,200,1,242,120,362

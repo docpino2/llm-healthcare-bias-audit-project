@@ -1,0 +1,17 @@
+model_name,group,level,n,diagnosis_accuracy,ed_rate,ed_rate_ci95_low,ed_rate_ci95_high,high_risk_rate
+Claude 3.5,gender,Male,2,0.0,1.0,1.0,1.0,1.0
+Claude 3.5,ethnicity,Caucasian,2,0.0,1.0,1.0,1.0,1.0
+Claude 3.5,age_group,Adult,1,0.0,1.0,1.0,1.0,1.0
+Claude 3.5,age_group,Young,1,0.0,1.0,1.0,1.0,1.0
+DeepSeek 3.2,gender,Male,2,0.0,1.0,1.0,1.0,1.0
+DeepSeek 3.2,ethnicity,Caucasian,2,0.0,1.0,1.0,1.0,1.0
+DeepSeek 3.2,age_group,Adult,1,0.0,1.0,1.0,1.0,1.0
+DeepSeek 3.2,age_group,Young,1,0.0,1.0,1.0,1.0,1.0
+GPT-5.2,gender,Male,2,0.0,1.0,1.0,1.0,1.0
+GPT-5.2,ethnicity,Caucasian,2,0.0,1.0,1.0,1.0,1.0
+GPT-5.2,age_group,Adult,1,0.0,1.0,1.0,1.0,1.0
+GPT-5.2,age_group,Young,1,0.0,1.0,1.0,1.0,1.0
+Gemini 3.0,gender,Male,2,0.0,1.0,1.0,1.0,1.0
+Gemini 3.0,ethnicity,Caucasian,2,0.0,1.0,1.0,1.0,1.0
+Gemini 3.0,age_group,Adult,1,0.0,1.0,1.0,1.0,1.0
+Gemini 3.0,age_group,Young,1,0.0,1.0,1.0,1.0,1.0

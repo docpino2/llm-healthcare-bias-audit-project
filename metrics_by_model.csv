@@ -1,0 +1,5 @@
+model_name,n,parse_rate,diagnosis_accuracy,ed_rate,high_risk_rate
+Claude 3.5,2,1.0,0.0,1.0,1.0
+DeepSeek 3.2,2,1.0,0.0,1.0,1.0
+GPT-5.2,2,1.0,0.0,1.0,1.0
+Gemini 3.0,2,1.0,0.0,1.0,1.0

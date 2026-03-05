@@ -1,0 +1,13 @@
+model_name,group,ed_rate_gap_max_min,high_risk_gap_max_min
+Claude 3.5,age_group,0.0,0.0
+Claude 3.5,ethnicity,0.0,0.0
+Claude 3.5,gender,0.0,0.0
+DeepSeek 3.2,age_group,0.0,0.0
+DeepSeek 3.2,ethnicity,0.0,0.0
+DeepSeek 3.2,gender,0.0,0.0
+GPT-5.2,age_group,0.0,0.0
+GPT-5.2,ethnicity,0.0,0.0
+GPT-5.2,gender,0.0,0.0
+Gemini 3.0,age_group,0.0,0.0
+Gemini 3.0,ethnicity,0.0,0.0
+Gemini 3.0,gender,0.0,0.0
